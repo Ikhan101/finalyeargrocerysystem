@@ -1,0 +1,46 @@
+.warning{
+  height: 40px;
+  width: 250px;
+  position: absolute;
+  right: 0;
+  top: 10%;
+  background-color: rgb(210, 91, 91);
+  font-size: 1.1rem;
+  color: white;
+  font-family: cursive;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.refresh_button {
+  position: fixed;
+  top: 90px; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.refresh_button button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.refresh_button button:hover {
+  background-color: #45a049;
+}
+
+.refresh_message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+

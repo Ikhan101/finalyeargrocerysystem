@@ -1,0 +1,149 @@
+/* this section is the css for the comparsion section */
+.comparison-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-section h2 {
+  font-size: 1.8rem; /* Increased font size */
+  margin-bottom: 20px; /* Increased margin for better separation */
+}
+
+.comparison-section p {
+  font-size: 1.2rem; /* Increased font size */
+  margin: 10px 0; /* Increased vertical margin for better spacing */
+}
+
+.comparison-section p:last-child {
+  font-weight: bold;
+  margin-top: 20px; /* Increased margin for better separation */
+}
+
+.comparison-section p span {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.4rem; /* Increased font size */
+}
+
+.comparison-section p span:nth-child(2) {
+  margin-left: 15px; /* Increased margin for better spacing */
+}
+
+.comparison-section p:last-child {
+  margin-top: 30px; /* Increased margin for better separation */
+}
+
+
+
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.cart-section {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-right: 20px;
+  background-color: #f9f9f9;
+}
+
+.cart-box {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+}
+
+.cart-img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.cart-img img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+.cart-details {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Take up remaining space */
+}
+
+.cart-controls {
+  display: flex;
+  align-items: center;
+}
+
+.control-button {
+  padding: 5px 10px;
+  margin-right: 5px; /* Adjusted margin-right */
+  font-size: 14px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.control-button:hover {
+  background-color: #0056b3;
+}
+
+.remove-button {
+  padding: 5px 10px;
+  margin-left: auto; /* Push to the right */
+  font-size: 14px;
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #bd2130;
+}
+
+.total {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.comparison-section {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.comparison-section h2 {
+  margin-bottom: 20px;
+}
+
+.comparison-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.comparison-section a:hover {
+  text-decoration: underline;
+}
+
+.retail-logo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
